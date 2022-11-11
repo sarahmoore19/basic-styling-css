@@ -1,37 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.nanum-gothic {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, paleturquoise, plum, pink)
+}
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
+    font-size: 75px;
+    font-family: Nanum Gothic;
+    padding: 10px;
+    margin: 40px auto;
+    font-weight: bold;
     text-decoration: ;
-    color: ;
+    color: white;
     background-color: ;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 580px;
+    text-shadow: 2px 2px 5px paleturquoise;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    width: 500px;
+    font-size: 50px;
+    font-family: Nanum Gothic;
+    padding: 10px;
+    margin: auto;;
+    font-weight: bolder;
+    color: white;
+    background-color: none;
+    text-align: center;
+    border-bottom: 1px solid white;
+    text-shadow: 2px 2px 5px paleturquoise;
+}
+.story-box {
+    border-radius: 10px;
+    background-color: powderblue;
+    padding: 20px;
+    width: 65%;
+    margin: 50px auto;
+
+}
+#description {
+  text-align: center;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px plum;
+    color: white;
 }
 
 .logo {
     background-size: cover;
     background-image: url();
     background-color: ;
-    height: ;
-    width: ;
+    text-align: center;
+    margin: 50px auto;
 }
